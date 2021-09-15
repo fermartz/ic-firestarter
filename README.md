@@ -1,4 +1,4 @@
-<img height=320 src="https://github.com/ferMartz/ic-material/blob/main/src/assets/ic-material-shot.png" />
+<img src="https://github.com/ferMartz/ic-firestarter/blob/main/frontend/assets/ic-firestarter.png" />
 
 # IC Firestarter
 
