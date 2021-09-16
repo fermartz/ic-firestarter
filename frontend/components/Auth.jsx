@@ -118,14 +118,14 @@ function Auth() {
               TransitionComponent={Transition}
               keepMounted
               onClose={handleClose}
-              aria-labelledby="alert-dialog-slide-title"
-              aria-describedby="alert-dialog-slide-description"
+              aria-labelledby="alert-dialog-info-title"
+              aria-describedby="alert-dialog-info-description"
             >
-              <DialogTitle id="alert-dialog-slide-title">
+              <DialogTitle id="alert-dialog-info-title">
                 Signed in as:
               </DialogTitle>
               <DialogContent>
-                <DialogContentText id="alert-dialog-slide-description">
+                <DialogContentText id="alert-dialog-info-description">
                   {principal}
                 </DialogContentText>
               </DialogContent>

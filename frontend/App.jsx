@@ -1,6 +1,6 @@
 import React, { useReducer, useContext, useEffect } from "react"
 import SiteContext from "./context"
-import siteReducer from "./reducer"
+import SiteReducer from "./reducer"
 import { Router } from "react-router-dom"
 import routes, { renderRoutes } from "./routes"
 import { createBrowserHistory } from "history"
@@ -13,7 +13,7 @@ const history = createBrowserHistory()
 
 function App() {
   const initialState = useContext(SiteContext)
-  const [state, dispatch] = useReducer(siteReducer, initialState)
+  const [state, dispatch] = useReducer(SiteReducer, initialState)
   var localTheme = localStorage.getItem("theme")
   if (localTheme === null) {
     localStorage.setItem("theme", "light")
@@ -42,18 +42,3 @@ function App() {
 }
 
 export default App
-
-// import React from "react"
-// import { Auth } from "./Auth"
-// import { Intro } from "./Intro"
-
-// function App() {
-//   return (
-//     <div className="App">
-//       <Auth />
-//       <Intro />
-//     </div>
-//   )
-// }
-
-// export default App
