@@ -5,7 +5,7 @@ import App from "./App"
 /**
  * @dfinity/agent requires this. Can be removed once it's fixed
  */
-window.global = window
+// window.global = window
 
 ReactDOM.render(
   <React.StrictMode>
